@@ -1,0 +1,13 @@
+{
+  "name": "lantern-riddle-bit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "月满中秋 · 灯谜趣答：零依赖静态灯谜答题站",
+  "scripts": {
+    "serve": "node tools/serve.mjs",
+    "validate": "node tools/validate-riddles.mjs",
+    "new": "node tools/new-riddle.mjs",
+    "test": "node --test tools/test-scoring.mjs"
+  }
+}

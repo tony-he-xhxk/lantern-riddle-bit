@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>月满中秋 · 灯谜趣答</title>
+  <meta name="description" content="中秋灯谜趣答：易、中、难三档灯谜，选择题与填空题混合，每题限时作答，答完可生成成绩图。">
+  <meta name="theme-color" content="#0d1430">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d1430'/%3E%3Cellipse cx='32' cy='35' rx='15' ry='15' fill='%23ffb347'/%3E%3Crect x='22' y='13' width='20' height='6' rx='3' fill='%23ffd98a'/%3E%3Crect x='29' y='50' width='6' height='9' rx='3' fill='%23ffd98a'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true">
+    <div class="sky__stars"></div>
+    <div class="sky__moon"></div>
+    <div class="sky__petals" id="petals"></div>
+    <svg class="lantern lantern--left" viewBox="0 0 120 220" role="presentation">
+      <path class="lantern__line" d="M60 0v26" />
+      <rect class="lantern__cap" x="36" y="26" width="48" height="12" rx="5" />
+      <ellipse class="lantern__body" cx="60" cy="96" rx="46" ry="58" />
+      <path class="lantern__rib" d="M60 38c-16 16-16 100 0 116M60 38c16 16 16 100 0 116" />
+      <rect class="lantern__cap" x="36" y="154" width="48" height="12" rx="5" />
+      <path class="lantern__tassel" d="M60 166v34" />
+    </svg>
+    <svg class="lantern lantern--right" viewBox="0 0 120 220" role="presentation">
+      <path class="lantern__line" d="M60 0v26" />
+      <rect class="lantern__cap" x="36" y="26" width="48" height="12" rx="5" />
+      <ellipse class="lantern__body" cx="60" cy="96" rx="46" ry="58" />
+      <path class="lantern__rib" d="M60 38c-16 16-16 100 0 116M60 38c16 16 16 100 0 116" />
+      <rect class="lantern__cap" x="36" y="154" width="48" height="12" rx="5" />
+      <path class="lantern__tassel" d="M60 166v34" />
+    </svg>
+  </div>
+
+  <main class="app">
+    <header class="masthead">
+      <h1 class="masthead__title" id="siteTitle">月满中秋 · 灯谜趣答</h1>
+      <p class="masthead__subtitle" id="siteSubtitle">东风夜放花千树，更吹落、星如雨。</p>
+    </header>
+
+    <section class="screen screen--loading" id="screenLoading">
+      <p class="loading__text" id="loadingText">正在挂灯笼…</p>
+      <div class="loading__dots" aria-hidden="true"><span></span><span></span><span></span></div>
+    </section>
+
+    <section class="screen" id="screenHome" hidden>
+      <div class="panel panel--home">
+        <h2 class="panel__title" id="homeTitle">今晚想猜哪一档灯谜？</h2>
+        <p class="panel__hint" id="homeHint"></p>
+        <div class="difficulty-grid" id="difficultyGrid"></div>
+        <p class="notice" id="skippedNotice" hidden></p>
+      </div>
+    </section>
+
+    <section class="screen" id="screenPlay" hidden>
+      <div class="hud">
+        <span class="hud__item" id="progressLabel"></span>
+        <span class="hud__item hud__item--score" id="scoreLabel"></span>
+        <button class="btn btn--ghost btn--small" id="quitBtn" type="button">退出本局</button>
+      </div>
+
+      <article class="riddle panel">
+        <div class="riddle__meta">
+          <div class="timer" id="timerWrap">
+            <svg class="timer__ring" viewBox="0 0 72 72" aria-hidden="true">
+              <circle class="timer__track" cx="36" cy="36" r="31"></circle>
+              <circle class="timer__progress" id="timerRing" cx="36" cy="36" r="31"></circle>
+            </svg>
+            <span class="timer__text" id="timerText">30</span>
+          </div>
+          <div class="riddle__topic-wrap">
+            <p class="riddle__topic" id="topicLabel"></p>
+          </div>
+        </div>
+
+        <p class="riddle__question" id="questionText"></p>
+
+        <div class="answer" id="answerArea"></div>
+        <p class="answer__hint" id="hintText" hidden></p>
+
+        <div class="reveal" id="revealBox" aria-live="polite" hidden>
+          <p class="reveal__verdict" id="revealVerdict"></p>
+          <p class="reveal__answer" id="revealAnswer"></p>
+          <p class="reveal__points" id="revealPoints"></p>
+          <p class="reveal__explanation" id="revealExplanation"></p>
+          <button class="btn btn--primary" id="nextBtn" type="button">下一题</button>
+        </div>
+      </article>
+      <p class="sr-only" id="liveRegion" aria-live="polite"></p>
+    </section>
+
+    <section class="screen" id="screenResult" hidden>
+      <div class="panel panel--result">
+        <h2 class="panel__title" id="resultTitle">本局结束</h2>
+        <div class="scorecard" id="scorecard">
+          <div class="scorecard__glow" aria-hidden="true"></div>
+          <p class="scorecard__moons" aria-hidden="true"></p>
+          <p class="scorecard__label" id="resultScoreLabel">本局得分</p>
+          <p class="scorecard__score" id="resultScore">0</p>
+          <p class="scorecard__sub" id="resultSub"></p>
+          <dl class="scorecard__stats">
+            <div><dt id="accuracyLabel">正确率</dt><dd id="resultAccuracy">0%</dd></div>
+            <div><dt id="timeLabel">总用时</dt><dd id="resultTime">0 秒</dd></div>
+            <div><dt id="difficultyStatLabel">难度</dt><dd id="resultDifficulty"></dd></div>
+          </dl>
+        </div>
+
+        <div class="actions">
+          <button class="btn btn--primary" id="playAgainBtn" type="button">再玩一局</button>
+          <button class="btn btn--ghost" id="changeDifficultyBtn" type="button">换个难度</button>
+          <button class="btn btn--ghost" id="downloadCardBtn" type="button">下载成绩图</button>
+        </div>
+        <p class="notice" id="cardNotice" hidden></p>
+
+        <h3 class="review__title" id="reviewTitle">逐题回顾</h3>
+        <ol class="review" id="reviewList"></ol>
+      </div>
+    </section>
+
+    <section class="screen" id="screenError" hidden>
+      <div class="panel panel--error">
+        <h2 class="panel__title" id="errorTitle">灯笼没挂稳</h2>
+        <p class="panel__hint" id="errorMessage"></p>
+        <div class="actions">
+          <button class="btn btn--primary" id="retryBtn" type="button">重试</button>
+          <button class="btn btn--ghost" id="errorHomeBtn" type="button">回到首页</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p id="siteFooter"></p>
+  </footer>
+
+  <div class="overlay" id="confirmOverlay" hidden>
+    <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="confirmTitle">
+      <h2 class="dialog__title" id="confirmTitle">退出本局？</h2>
+      <p class="dialog__body" id="confirmBody"></p>
+      <div class="dialog__actions">
+        <button class="btn btn--ghost" id="confirmNo" type="button">继续答题</button>
+        <button class="btn btn--primary" id="confirmYes" type="button">退出</button>
+      </div>
+    </div>
+  </div>
+
+  <canvas id="cardCanvas" width="1080" height="1920" hidden></canvas>
+
+  <noscript>
+    <p class="noscript">这个灯谜需要 JavaScript 才能点亮，请在浏览器设置中开启后再来。</p>
+  </noscript>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

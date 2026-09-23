@@ -1,0 +1,906 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-23",
+  "riddles": [
+    {
+      "id": "easy-01",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一字",
+      "question": "一口咬掉牛尾巴",
+      "answer": "告",
+      "options": ["告", "牛", "舌", "先"],
+      "explanation": "“牛”字下面的尾巴被“口”咬掉，剩下的形状正是“告”。"
+    },
+    {
+      "id": "easy-02",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一字",
+      "question": "上不在上，下不在下，人有它大，天没它大",
+      "answer": "一",
+      "options": ["一", "二", "大", "天"],
+      "explanation": "它藏在“上”“下”里却不在上下两端：“人”加上它是“大”，“天”去掉它也是“大”。"
+    },
+    {
+      "id": "easy-03",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一字",
+      "question": "一加一不是二",
+      "answer": "王",
+      "options": ["王", "二", "十", "丁"],
+      "explanation": "把“一”“＋”“一”三横一竖叠起来，就是“王”。"
+    },
+    {
+      "id": "easy-04",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一字",
+      "question": "十张口，一颗心",
+      "answer": "思",
+      "options": ["思", "田", "想", "叶"],
+      "explanation": "“十”进“口”成“田”，再添一颗“心”，合成“思”。"
+    },
+    {
+      "id": "easy-05",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一字",
+      "question": "千里相逢",
+      "answer": "重",
+      "options": ["重", "行", "远", "量"],
+      "explanation": "“千”与“里”上下相逢，正好合成“重”。"
+    },
+    {
+      "id": "easy-06",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一字",
+      "question": "半推半就",
+      "answer": "掠",
+      "options": ["掠", "扰", "就", "准"],
+      "explanation": "取“推”的左半“扌”，取“就”的左半“京”，合起来是“掠”。"
+    },
+    {
+      "id": "easy-07",
+      "difficulty": "easy",
+      "type": "fill",
+      "topic": "打一字",
+      "question": "八十八",
+      "answer": "米",
+      "acceptedAnswers": ["米"],
+      "explanation": "“八”“十”“八”三个字摞在一起，就是“米”。"
+    },
+    {
+      "id": "easy-08",
+      "difficulty": "easy",
+      "type": "fill",
+      "topic": "打一字",
+      "question": "皇帝的新衣",
+      "answer": "袭",
+      "acceptedAnswers": ["袭", "襲"],
+      "explanation": "皇帝穿的是“龙”袍，龙加衣，扣“袭”。"
+    },
+    {
+      "id": "easy-09",
+      "difficulty": "easy",
+      "type": "fill",
+      "topic": "打一字",
+      "question": "又进一球",
+      "answer": "叉",
+      "acceptedAnswers": ["叉"],
+      "explanation": "“又”字里进了一点，像球入网，成“叉”。"
+    },
+    {
+      "id": "easy-10",
+      "difficulty": "easy",
+      "type": "fill",
+      "topic": "打一字",
+      "question": "一斗米",
+      "answer": "料",
+      "acceptedAnswers": ["料"],
+      "explanation": "“米”旁加“斗”，合成“料”。"
+    },
+    {
+      "id": "easy-11",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一成语",
+      "question": "十五的月亮",
+      "answer": "正大光明",
+      "options": ["正大光明", "花好月圆", "皓月当空", "光阴似箭"],
+      "explanation": "十五的月亮又“正”又圆，又“大”又“光明”，四面都扣得住。"
+    },
+    {
+      "id": "easy-12",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一成语",
+      "question": "大合唱",
+      "answer": "异口同声",
+      "options": ["异口同声", "一唱一和", "响彻云霄", "众口难调"],
+      "explanation": "许多张嘴唱同一支曲子，正是“异口同声”。"
+    },
+    {
+      "id": "easy-13",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一成语",
+      "question": "最长的腿",
+      "answer": "一步登天",
+      "options": ["一步登天", "健步如飞", "寸步难行", "大步流星"],
+      "explanation": "一步就能登上天，腿自然是最长的。"
+    },
+    {
+      "id": "easy-14",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一成语",
+      "question": "最大的嘴",
+      "answer": "气吞山河",
+      "options": ["气吞山河", "血盆大口", "张口结舌", "目瞪口呆"],
+      "explanation": "一张口能把山河吞下去，才是最大的嘴。"
+    },
+    {
+      "id": "easy-15",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一成语",
+      "question": "最长的一天",
+      "answer": "度日如年",
+      "options": ["度日如年", "日上三竿", "夜以继日", "一日三秋"],
+      "explanation": "过一天像过一年，这一天自然最长。"
+    },
+    {
+      "id": "easy-16",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一成语",
+      "question": "哑巴吃黄连",
+      "answer": "有苦说不出",
+      "options": ["有苦说不出", "一言不发", "哑口无言", "苦不堪言"],
+      "explanation": "黄连苦，哑巴又开不了口，苦处只能自己咽下。"
+    },
+    {
+      "id": "easy-17",
+      "difficulty": "easy",
+      "type": "fill",
+      "topic": "打一俗语",
+      "question": "千里送鹅毛",
+      "answer": "礼轻情意重",
+      "acceptedAnswers": ["礼轻情意重", "礼轻人意重", "礼轻情谊重"],
+      "explanation": "礼物虽轻，情意却重，扣“礼轻情意重”。"
+    },
+    {
+      "id": "easy-18",
+      "difficulty": "easy",
+      "type": "fill",
+      "topic": "打一成语",
+      "question": "张飞穿针",
+      "answer": "粗中有细",
+      "acceptedAnswers": ["粗中有细"],
+      "explanation": "张飞性子粗，穿针却要细功夫，扣“粗中有细”。"
+    },
+    {
+      "id": "easy-19",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一动物",
+      "question": "有头没有颈，有眼没有眉，无脚走千里，有翅难飞起",
+      "answer": "鱼",
+      "options": ["鱼", "鸟", "蛇", "马"],
+      "explanation": "鱼有头无颈、有眼无眉，鳍像翅却不能飞，靠水走遍千里。"
+    },
+    {
+      "id": "easy-20",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一蔬菜",
+      "question": "红口袋，绿口袋，有人怕，有人爱",
+      "answer": "辣椒",
+      "options": ["辣椒", "柿子", "石榴", "葫芦"],
+      "explanation": "辣椒红了、青了都像小口袋，怕辣的人躲，爱辣的人抢。"
+    },
+    {
+      "id": "easy-21",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一水果",
+      "question": "弯弯像小船，黄黄肚里甜",
+      "answer": "香蕉",
+      "options": ["香蕉", "芒果", "柚子", "桂圆"],
+      "explanation": "弯弯的黄皮小船，正是香蕉。"
+    },
+    {
+      "id": "easy-22",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一水果",
+      "question": "身穿绿衣裳，肚里水汪汪，生的孩子多，个个黑脸膛",
+      "answer": "西瓜",
+      "options": ["西瓜", "冬瓜", "石榴", "苦瓜"],
+      "explanation": "绿皮多汁，里面的籽又多又黑，正是西瓜。"
+    },
+    {
+      "id": "easy-23",
+      "difficulty": "easy",
+      "type": "fill",
+      "topic": "打一自然现象",
+      "question": "千条线，万条线，掉到水里看不见",
+      "answer": "雨",
+      "acceptedAnswers": ["雨", "雨水"],
+      "explanation": "雨丝像千万条线，落进水里就再也分不出来。"
+    },
+    {
+      "id": "easy-24",
+      "difficulty": "easy",
+      "type": "fill",
+      "topic": "打一物品",
+      "question": "披着白纱衣，像个大蘑菇，雨天人人爱",
+      "answer": "雨伞",
+      "acceptedAnswers": ["雨伞", "伞"],
+      "explanation": "撑开像蘑菇，雨天离不了，扣“雨伞”。"
+    },
+    {
+      "id": "easy-25",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一城市名",
+      "question": "风平浪静",
+      "answer": "宁波",
+      "options": ["宁波", "上海", "青岛", "厦门"],
+      "explanation": "波浪宁静，扣“宁波”。"
+    },
+    {
+      "id": "easy-26",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一城市名",
+      "question": "两个胖子",
+      "answer": "合肥",
+      "options": ["合肥", "沈阳", "西宁", "大连"],
+      "explanation": "两个胖子凑到一块儿，合起来更肥，扣“合肥”。"
+    },
+    {
+      "id": "easy-27",
+      "difficulty": "easy",
+      "type": "fill",
+      "topic": "打一文坛名人",
+      "question": "千年古屋",
+      "answer": "老舍",
+      "acceptedAnswers": ["老舍"],
+      "explanation": "千年的老房子，自然是“老舍”。"
+    },
+    {
+      "id": "easy-28",
+      "difficulty": "easy",
+      "type": "fill",
+      "topic": "打一城市名",
+      "question": "冰消雪融",
+      "answer": "开封",
+      "acceptedAnswers": ["开封"],
+      "explanation": "冰雪解冻、河面开冻，扣“开封”。"
+    },
+    {
+      "id": "easy-29",
+      "difficulty": "easy",
+      "type": "fill",
+      "topic": "打一节日",
+      "question": "八月十五月正圆，家家户户摆果盘",
+      "answer": "中秋节",
+      "acceptedAnswers": ["中秋节", "中秋"],
+      "explanation": "农历八月十五，正是中秋节。"
+    },
+    {
+      "id": "easy-30",
+      "difficulty": "easy",
+      "type": "fill",
+      "topic": "打一习俗",
+      "question": "八月十五的夜里，人们抬头看那轮圆月，这一习俗是",
+      "answer": "赏月",
+      "acceptedAnswers": ["赏月", "赏月团圆"],
+      "explanation": "中秋之夜抬头看月，是流传已久的“赏月”之俗。"
+    },
+    {
+      "id": "medium-01",
+      "difficulty": "medium",
+      "type": "choice",
+      "topic": "打一字",
+      "question": "上下一体",
+      "answer": "卡",
+      "options": ["卡", "上", "下", "卜"],
+      "explanation": "“上”与“下”共用中间一横，合成“卡”。"
+    },
+    {
+      "id": "medium-02",
+      "difficulty": "medium",
+      "type": "choice",
+      "topic": "打一字",
+      "question": "画时圆，写时方，冬时短，夏时长",
+      "answer": "日",
+      "options": ["日", "月", "田", "回"],
+      "explanation": "太阳画出来是圆的，写成字是方形的“日”；冬天日照短，夏天日照长。"
+    },
+    {
+      "id": "medium-03",
+      "difficulty": "medium",
+      "type": "choice",
+      "topic": "打一字",
+      "question": "头是一，腰是一，尾是一，其实不是一",
+      "answer": "三",
+      "options": ["三", "一", "川", "王"],
+      "explanation": "三横各是“一”，合起来却不是“一”，而是“三”。"
+    },
+    {
+      "id": "medium-04",
+      "difficulty": "medium",
+      "type": "choice",
+      "topic": "打一字",
+      "question": "一人一张口，口下长只手",
+      "answer": "拿",
+      "options": ["拿", "合", "伞", "拾"],
+      "explanation": "“人”“一”“口”“手”自上而下排好，正是“拿”。"
+    },
+    {
+      "id": "medium-05",
+      "difficulty": "medium",
+      "type": "choice",
+      "topic": "打一字",
+      "question": "二小姐",
+      "answer": "姿",
+      "options": ["姿", "妙", "妞", "妹"],
+      "explanation": "“二小姐”即次女，“次”加“女”成“姿”。"
+    },
+    {
+      "id": "medium-06",
+      "difficulty": "medium",
+      "type": "choice",
+      "topic": "打一字",
+      "question": "一箭穿心",
+      "answer": "必",
+      "options": ["必", "心", "忠", "中"],
+      "explanation": "一支“矢”穿过“心”，笔画交错，成了“必”。"
+    },
+    {
+      "id": "medium-07",
+      "difficulty": "medium",
+      "type": "fill",
+      "topic": "打一字",
+      "question": "十二点",
+      "answer": "斗",
+      "acceptedAnswers": ["斗", "鬥"],
+      "explanation": "“十”字加两点，合成“斗”。"
+    },
+    {
+      "id": "medium-08",
+      "difficulty": "medium",
+      "type": "fill",
+      "topic": "打一字",
+      "question": "一点一横长，一撇到南洋",
+      "answer": "广",
+      "acceptedAnswers": ["广", "廣"],
+      "explanation": "一点一横加一长撇，正是“广”。"
+    },
+    {
+      "id": "medium-09",
+      "difficulty": "medium",
+      "type": "fill",
+      "topic": "打一字",
+      "question": "半部春秋",
+      "answer": "秦",
+      "acceptedAnswers": ["秦"],
+      "explanation": "取“春”的上半与“秋”的左半，合成“秦”。"
+    },
+    {
+      "id": "medium-10",
+      "difficulty": "medium",
+      "type": "fill",
+      "topic": "打一字",
+      "question": "一家十一口",
+      "answer": "吉",
+      "acceptedAnswers": ["吉"],
+      "explanation": "“十”加“一”成“士”，与“口”合成“吉”。"
+    },
+    {
+      "id": "medium-11",
+      "difficulty": "medium",
+      "type": "choice",
+      "topic": "打一成语",
+      "question": "百米赛跑",
+      "answer": "分秒必争",
+      "options": ["分秒必争", "你追我赶", "争先恐后", "并驾齐驱"],
+      "explanation": "百米冲刺，每一分每一秒都要争，扣“分秒必争”。"
+    },
+    {
+      "id": "medium-12",
+      "difficulty": "medium",
+      "type": "choice",
+      "topic": "打一成语",
+      "question": "十五个吊桶打水",
+      "answer": "七上八下",
+      "options": ["七上八下", "提心吊胆", "忐忑不安", "手忙脚乱"],
+      "explanation": "十五个桶，七个上八个下，正是“七上八下”。"
+    },
+    {
+      "id": "medium-13",
+      "difficulty": "medium",
+      "type": "choice",
+      "topic": "打一成语",
+      "question": "大炮打蚊子",
+      "answer": "大材小用",
+      "options": ["大材小用", "小题大做", "杀鸡取卵", "白费力气"],
+      "explanation": "大炮这般材料，只用来打蚊子，扣“大材小用”。"
+    },
+    {
+      "id": "medium-14",
+      "difficulty": "medium",
+      "type": "choice",
+      "topic": "打一成语",
+      "question": "木匠戴木枷",
+      "answer": "自作自受",
+      "options": ["自作自受", "作茧自缚", "自食其果", "自作聪明"],
+      "explanation": "木枷是木匠自己做的，戴在自家脖子上，扣“自作自受”。"
+    },
+    {
+      "id": "medium-15",
+      "difficulty": "medium",
+      "type": "choice",
+      "topic": "打一成语",
+      "question": "打开窗户吹喇叭",
+      "answer": "名声在外",
+      "options": ["名声在外", "一鸣惊人", "家喻户晓", "名不虚传"],
+      "explanation": "喇叭吹出的“鸣”声传到窗外，谐音扣“名声在外”。"
+    },
+    {
+      "id": "medium-16",
+      "difficulty": "medium",
+      "type": "choice",
+      "topic": "打一成语",
+      "question": "火烧眉毛",
+      "answer": "迫在眉睫",
+      "options": ["迫在眉睫", "十万火急", "火烧火燎", "千钧一发"],
+      "explanation": "火都烧到眉毛和睫毛上了，迫得极近。"
+    },
+    {
+      "id": "medium-17",
+      "difficulty": "medium",
+      "type": "fill",
+      "topic": "打一俗语",
+      "question": "狗咬耗子",
+      "answer": "多管闲事",
+      "acceptedAnswers": ["多管闲事", "管闲事"],
+      "explanation": "狗本职是看门，却去抓耗子，扣“多管闲事”。"
+    },
+    {
+      "id": "medium-18",
+      "difficulty": "medium",
+      "type": "fill",
+      "topic": "打一成语",
+      "question": "太阳底下点灯",
+      "answer": "多此一举",
+      "acceptedAnswers": ["多此一举"],
+      "explanation": "白昼已经够亮，还点一盏灯，正是“多此一举”。"
+    },
+    {
+      "id": "medium-19",
+      "difficulty": "medium",
+      "type": "choice",
+      "topic": "打一物",
+      "question": "有面没有口，有脚没有手，虽有四只脚，自己不会走",
+      "answer": "桌子",
+      "options": ["桌子", "椅子", "柜子", "凳子"],
+      "explanation": "桌面大、四脚着地却不会走路，正是桌子。"
+    },
+    {
+      "id": "medium-20",
+      "difficulty": "medium",
+      "type": "choice",
+      "topic": "打一物",
+      "question": "兄弟七八个，围着柱子坐，大家一分家，衣服就扯破",
+      "answer": "大蒜",
+      "options": ["大蒜", "洋葱", "桔子", "石榴"],
+      "explanation": "蒜瓣围坐一圈，一分开就撕破了蒜皮这层“衣服”。"
+    },
+    {
+      "id": "medium-21",
+      "difficulty": "medium",
+      "type": "choice",
+      "topic": "打一物",
+      "question": "圆圆脸，亮晶晶，对着它照自己",
+      "answer": "镜子",
+      "options": ["镜子", "月亮", "灯泡", "水盆"],
+      "explanation": "圆脸明亮，对着它就能看见自己，扣“镜子”。"
+    },
+    {
+      "id": "medium-22",
+      "difficulty": "medium",
+      "type": "choice",
+      "topic": "打一物",
+      "question": "上边毛，下边毛，中间一颗黑葡萄",
+      "answer": "眼睛",
+      "options": ["眼睛", "眉毛", "鼻子", "嘴巴"],
+      "explanation": "上下睫毛像毛，中间眼珠像黑葡萄，扣“眼睛”。"
+    },
+    {
+      "id": "medium-23",
+      "difficulty": "medium",
+      "type": "fill",
+      "topic": "打一物",
+      "question": "一个大肚皮，生来怪脾气，不打不做声，越打越欢喜",
+      "answer": "鼓",
+      "acceptedAnswers": ["鼓", "大鼓"],
+      "explanation": "鼓有大肚子，不敲不响，越敲越响，扣“鼓”。"
+    },
+    {
+      "id": "medium-24",
+      "difficulty": "medium",
+      "type": "fill",
+      "topic": "打一物",
+      "question": "看看是白的，摸摸是光的，掉到水里看不见",
+      "answer": "冰",
+      "acceptedAnswers": ["冰", "冰块"],
+      "explanation": "冰白而滑，遇水融化就消失了，扣“冰”。"
+    },
+    {
+      "id": "medium-25",
+      "difficulty": "medium",
+      "type": "choice",
+      "topic": "打一城市名",
+      "question": "八月飘香香满园",
+      "answer": "桂林",
+      "options": ["桂林", "杭州", "洛阳", "苏州"],
+      "explanation": "八月桂花香，桂树成林，扣“桂林”。"
+    },
+    {
+      "id": "medium-26",
+      "difficulty": "medium",
+      "type": "choice",
+      "topic": "打一城市名",
+      "question": "拆信",
+      "answer": "开封",
+      "options": ["开封", "保定", "重庆", "张家口"],
+      "explanation": "拆信就是拆开封口，扣“开封”。"
+    },
+    {
+      "id": "medium-27",
+      "difficulty": "medium",
+      "type": "fill",
+      "topic": "打一历史人物",
+      "question": "爷爷打冲锋",
+      "answer": "祖冲之",
+      "acceptedAnswers": ["祖冲之"],
+      "explanation": "爷爷是“祖”，打冲锋是“冲之”，扣“祖冲之”。"
+    },
+    {
+      "id": "medium-28",
+      "difficulty": "medium",
+      "type": "fill",
+      "topic": "打一古代人物",
+      "question": "孔雀收屏",
+      "answer": "关羽",
+      "acceptedAnswers": ["关羽", "關羽"],
+      "explanation": "孔雀收起尾屏，就是把美丽的“羽”关起来，扣“关羽”。"
+    },
+    {
+      "id": "medium-29",
+      "difficulty": "medium",
+      "type": "fill",
+      "topic": "打一节日",
+      "question": "嫦娥奔月",
+      "answer": "中秋节",
+      "acceptedAnswers": ["中秋节", "中秋"],
+      "explanation": "嫦娥奔月是中秋最著名的传说，扣“中秋节”。"
+    },
+    {
+      "id": "medium-30",
+      "difficulty": "medium",
+      "type": "fill",
+      "topic": "打一花卉",
+      "question": "中秋前后枝头挤，小小黄花扑鼻香",
+      "answer": "桂花",
+      "acceptedAnswers": ["桂花", "金桂"],
+      "explanation": "中秋时节桂花盛开，香气浓郁，扣“桂花”。"
+    },
+    {
+      "id": "hard-01",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一字",
+      "question": "一月七日",
+      "answer": "脂",
+      "options": ["脂", "期", "明", "腊"],
+      "explanation": "“月”“七”“日”三个部件拼在一起，合成“脂”。"
+    },
+    {
+      "id": "hard-02",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一字",
+      "question": "二山在一道，猜出便错了",
+      "answer": "击",
+      "options": ["击", "出", "山", "崇"],
+      "explanation": "两个“山”叠在一起，看着像“出”，其实是“击”。"
+    },
+    {
+      "id": "hard-03",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一字",
+      "question": "旭日不出",
+      "answer": "九",
+      "options": ["九", "日", "旭", "早"],
+      "explanation": "“旭”里的“日”不出来，剩下“九”。"
+    },
+    {
+      "id": "hard-04",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一字",
+      "question": "十一点进厂",
+      "answer": "压",
+      "options": ["压", "厅", "厂", "庄"],
+      "explanation": "“十”加一点成“土”，再进“厂”里，正是“压”。"
+    },
+    {
+      "id": "hard-05",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一字",
+      "question": "四方来合作，贡献大一点",
+      "answer": "器",
+      "options": ["器", "田", "匠", "合"],
+      "explanation": "“四方”是四个“口”，“大”再加一点，合成“器”。"
+    },
+    {
+      "id": "hard-06",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一字",
+      "question": "两个人在土上",
+      "answer": "坐",
+      "options": ["坐", "尘", "佳", "圭"],
+      "explanation": "两个人落在“土”上，一左一右，就是“坐”。"
+    },
+    {
+      "id": "hard-07",
+      "difficulty": "hard",
+      "type": "fill",
+      "topic": "打一字",
+      "question": "左边加一是一千，右边减一是一千",
+      "answer": "任",
+      "acceptedAnswers": ["任"],
+      "explanation": "“任”的左半加一横是“千”，右半“壬”减一横也是“千”。"
+    },
+    {
+      "id": "hard-08",
+      "difficulty": "hard",
+      "type": "fill",
+      "topic": "打一字",
+      "question": "一大二小",
+      "answer": "奈",
+      "acceptedAnswers": ["奈"],
+      "explanation": "“一”“大”“二”“小”自上而下摞起来，正是“奈”。"
+    },
+    {
+      "id": "hard-09",
+      "difficulty": "hard",
+      "type": "fill",
+      "topic": "打一字",
+      "question": "四面都是山，山山都相连",
+      "answer": "田",
+      "acceptedAnswers": ["田"],
+      "explanation": "四个“山”围成方框，中间笔画连在一起，成了“田”。"
+    },
+    {
+      "id": "hard-10",
+      "difficulty": "hard",
+      "type": "fill",
+      "topic": "打一字",
+      "question": "有心记不住，有眼看不见",
+      "answer": "亡",
+      "acceptedAnswers": ["亡"],
+      "explanation": "“亡”加“心”是“忘”，加“目”是“盲”，两样都失了准头。"
+    },
+    {
+      "id": "hard-11",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一成语",
+      "question": "火车头没灯",
+      "answer": "前途无量",
+      "options": ["前途无量", "一路顺风", "摸黑前进", "昏天黑地"],
+      "explanation": "车头前方的“亮”没有了，“无亮”谐音“无量”。"
+    },
+    {
+      "id": "hard-12",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一成语",
+      "question": "脸上写字",
+      "answer": "表面文章",
+      "options": ["表面文章", "面目全非", "眉开眼笑", "白纸黑字"],
+      "explanation": "字写在“表面”上，成了脸面文章，扣“表面文章”。"
+    },
+    {
+      "id": "hard-13",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一成语",
+      "question": "礼义廉",
+      "answer": "无耻",
+      "options": ["无耻", "缺德", "无礼", "无义"],
+      "explanation": "“礼义廉耻”四个字里，偏偏少了一个“耻”。"
+    },
+    {
+      "id": "hard-14",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一成语",
+      "question": "鱼网",
+      "answer": "漏洞百出",
+      "options": ["漏洞百出", "一网打尽", "天罗地网", "网开一面"],
+      "explanation": "渔网的洞一个接一个，扣“漏洞百出”。"
+    },
+    {
+      "id": "hard-15",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一成语",
+      "question": "相声",
+      "answer": "装腔作势",
+      "options": ["装腔作势", "有声有色", "妙语连珠", "一语双关"],
+      "explanation": "相声讲究拿腔拿调、做足姿态，扣“装腔作势”。"
+    },
+    {
+      "id": "hard-16",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一成语",
+      "question": "百货商店",
+      "answer": "琳琅满目",
+      "options": ["琳琅满目", "应有尽有", "五花八门", "堆积如山"],
+      "explanation": "货架上美玉般的好东西摆满眼睛，“琳琅满目”。"
+    },
+    {
+      "id": "hard-17",
+      "difficulty": "hard",
+      "type": "fill",
+      "topic": "打一成语",
+      "question": "宰相肚里能撑船",
+      "answer": "宽宏大量",
+      "acceptedAnswers": ["宽宏大量"],
+      "explanation": "肚子里能容下一条船，扣“宽宏大量”。"
+    },
+    {
+      "id": "hard-18",
+      "difficulty": "hard",
+      "type": "fill",
+      "topic": "打一成语",
+      "question": "家家户户贴春联",
+      "answer": "普天同庆",
+      "acceptedAnswers": ["普天同庆"],
+      "explanation": "天下人家一齐庆贺，扣“普天同庆”。"
+    },
+    {
+      "id": "hard-19",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一物",
+      "question": "有风不动无风动，不动无风动有风",
+      "answer": "扇子",
+      "options": ["扇子", "风车", "风筝", "云彩"],
+      "explanation": "扇子要人摇动才有风，不摇它自己不会动。"
+    },
+    {
+      "id": "hard-20",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一物",
+      "question": "一物三个口，你有大家有",
+      "answer": "裤子",
+      "options": ["裤子", "衣裳", "帽子", "袜子"],
+      "explanation": "裤腰一个口、两条裤脚两个口，共三个口，人人都有。"
+    },
+    {
+      "id": "hard-21",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一物",
+      "question": "有头没有脚，有嘴不说话，天天墙上挂，给人说实话",
+      "answer": "钟",
+      "options": ["钟", "镜子", "日历", "相框"],
+      "explanation": "钟有外壳没有脚，不会说话，指针却老老实实报时。"
+    },
+    {
+      "id": "hard-22",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一食物",
+      "question": "一个白胖小娃娃，滚进热水就变大",
+      "answer": "汤圆",
+      "options": ["汤圆", "饺子", "面条", "米饭"],
+      "explanation": "白胖的汤圆下锅一煮就浮起来、胀起来，扣“汤圆”。"
+    },
+    {
+      "id": "hard-23",
+      "difficulty": "hard",
+      "type": "fill",
+      "topic": "打一食物",
+      "question": "外穿红袍，里面白胖，个个甜香",
+      "answer": "花生",
+      "acceptedAnswers": ["花生", "花生仁"],
+      "explanation": "花生仁外裹一层红衣，白胖又香，扣“花生”。"
+    },
+    {
+      "id": "hard-24",
+      "difficulty": "hard",
+      "type": "fill",
+      "topic": "打一物品",
+      "question": "像月牙弯又弯，割起草来快如飞",
+      "answer": "镰刀",
+      "acceptedAnswers": ["镰刀", "镰"],
+      "explanation": "弯弯像月牙的刀，割起草来飞快，扣“镰刀”。"
+    },
+    {
+      "id": "hard-25",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一城市名",
+      "question": "船出长江口",
+      "answer": "上海",
+      "options": ["上海", "江阴", "南京", "青岛"],
+      "explanation": "船到长江口，就是行“上”了“海”，扣“上海”。"
+    },
+    {
+      "id": "hard-26",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一城市名",
+      "question": "一路平安",
+      "answer": "旅顺",
+      "options": ["旅顺", "平安", "长春", "保定"],
+      "explanation": "旅途顺利平安，扣“旅顺”。"
+    },
+    {
+      "id": "hard-27",
+      "difficulty": "hard",
+      "type": "fill",
+      "topic": "打一城市名",
+      "question": "戈壁滩",
+      "answer": "长沙",
+      "acceptedAnswers": ["长沙"],
+      "explanation": "戈壁滩上细沙绵延很长，扣“长沙”。"
+    },
+    {
+      "id": "hard-28",
+      "difficulty": "hard",
+      "type": "fill",
+      "topic": "打一三国人物",
+      "question": "凿壁偷光",
+      "answer": "孔明",
+      "acceptedAnswers": ["孔明", "诸葛亮"],
+      "explanation": "凿出一个“孔”洞，偷来一线光“明”，扣“孔明”。"
+    },
+    {
+      "id": "hard-29",
+      "difficulty": "hard",
+      "type": "fill",
+      "topic": "打一节日别称",
+      "question": "农历八月十五正处在秋季正中，这个节日还有一个名字，指一家人团聚在一起",
+      "answer": "团圆节",
+      "acceptedAnswers": ["团圆节", "八月节", "仲秋节", "八月半"],
+      "explanation": "中秋又叫团圆节、八月节、仲秋节，取的都是月圆人圆之意。"
+    },
+    {
+      "id": "hard-30",
+      "difficulty": "hard",
+      "type": "fill",
+      "topic": "打一神话人物",
+      "question": "传说中飞上月宫、住在广寒宫的女子",
+      "answer": "嫦娥",
+      "acceptedAnswers": ["嫦娥", "嫦娥仙子"],
+      "explanation": "广寒宫里的女子，正是奔月的嫦娥。"
+    }
+  ]
+}
