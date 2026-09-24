@@ -341,6 +341,16 @@
       "answer": "蓝色大肥鱼",
       "acceptedAnswers": ["蓝色大肥鱼", "大肥鱼", "鲸鱼娘", "DeepSeek娘"],
       "explanation": "蓝色大肥鱼如果不喜欢吃白饭，那就不是大肥鱼本鱼了。"
+    },
+    {
+      "id": "easy-35",
+      "difficulty": "easy",
+      "type": "fill",
+      "topic": "打一饮料",
+      "question": "考试周破防特供",
+      "answer": "热带风味冰红茶",
+      "acceptedAnswers": ["热带风味冰红茶"],
+      "explanation": "“这个口味的冰红茶还挺好喝的，热带风味。”——BIT著名学长 向前的赵"
     },    
     {
       "id": "medium-01",
@@ -701,7 +711,17 @@
       "answer": "丹枫",
       "acceptedAnswers": ["丹枫","丹枫园"],
       "explanation": "出自杜牧《山行》：“远上寒山石径斜，白云深处有人家。”后两句话是“停车坐爱枫林晚，霜叶红于二月花。”枫叶意象与丹枫园的名字相合。"
-    },     
+    }, 
+    {
+      "id": "medium-37",
+      "difficulty": "medium",
+      "type": "choice",
+      "topic": "打一食物",
+      "question": "腻了吧唧的，不好吃，有点像豌豆黄",
+      "answer": "泸溪河绿豆糕",
+      "options": ["泸溪河绿豆糕", "泸溪河红豆糕", "泸溪河乳酪蛋黄", "泸溪河芝麻糕"],
+      "explanation": "根据BIT著名学长“向前的赵”原视频与“宁博要战斗”后续的采访视频，确认破防哥当时形容的就是泸溪河的绿豆糕。"
+    },    
     {
       "id": "hard-01",
       "difficulty": "hard",
@@ -1031,6 +1051,36 @@
       "answer": "牛来爆拉",
       "acceptedAnswers": ["牛来爆拉"],
       "explanation": "A股韭菜的终极赛博许愿池，建议每天开盘前默念三遍。星河君友情提示：请勿在股市中盲目跟风，股市有风险，投资需谨慎。"
+    },
+    {
+      "id": "hard-34",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一食物",
+      "question": "破防哥认为好吃的，并在当天吃了两个",
+      "answer": "泸溪河乳酪蛋黄",
+      "options": ["泸溪河乳酪蛋黄", "泸溪河红豆糕", "泸溪河绿豆糕", "泸溪河芝麻糕"],
+      "explanation": "“但是他那个乳酪蛋黄还挺好吃的，刚才吃了两个。”——BIT著名学长 向前的赵"
+    },
+    {
+      "id": "hard-35",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一日期",
+      "question": "BIT考试周破防哥破防纪念日",
+      "answer": "6月13日",
+      "options": ["6月13日", "6月14日", "6月15日", "6月16日"],
+      "explanation": "“现在是6月13号，晚上的8:36。”——BIT著名学长 向前的赵"
+    },
+    {
+      "id": "hard-36",
+      "difficulty": "hard",
+      "type": "fill",
+      "topic": "打一教材章节名称",
+      "question": "破防哥复习数字电路，还剩第七章",
+      "answer": "时序逻辑",
+      "acceptedAnswers": ["时序逻辑"],
+      "explanation": "“19号数字电路，还行，还剩第七章，时序逻辑。”——BIT著名学长 向前的赵"
     } 
   ]
 }
