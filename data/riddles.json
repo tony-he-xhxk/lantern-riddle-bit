@@ -323,6 +323,26 @@
       "explanation": "文萃楼拥有A~M建筑群，第一次去绝对找不着路。"
     },
     {
+      "id": "easy-33",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一BIT书院名称",
+      "question": "咖啡书院",
+      "answer": "睿信",
+      "options": ["睿信", "特立", "库迪", "精工"],
+      "explanation": "“睿信”谐音“瑞幸”，瑞幸是家咖啡店。"
+    },
+    {
+      "id": "easy-34",
+      "difficulty": "easy",
+      "type": "fill",
+      "topic": "打一虚拟角色",
+      "question": "吃白饭的",
+      "answer": "蓝色大肥鱼",
+      "acceptedAnswers": ["蓝色大肥鱼", "大肥鱼", "鲸鱼娘", "DeepSeek娘"],
+      "explanation": "蓝色大肥鱼如果不喜欢吃白饭，那就不是大肥鱼本鱼了。"
+    },    
+    {
       "id": "medium-01",
       "difficulty": "medium",
       "type": "choice",
@@ -1001,6 +1021,16 @@
     "answer": "甘棠",
     "options": ["甘棠", "疏桐", "博雅", "丹枫"],
     "explanation": "出自《诗经·召南·甘棠》：“蔽芾甘棠，勿剪勿伐，召伯所茇。”"
-  } 
+    },
+    {
+      "id": "hard-33",
+      "difficulty": "hard",
+      "type": "fill",
+      "topic": "打一股市术语【提示：股市有风险，投资需谨慎。】",
+      "question": "中秋看动画电影，主角叫“牛来”，配角叫“豹拉”，合起来是什么？",
+      "answer": "牛来爆拉",
+      "acceptedAnswers": ["牛来爆拉"],
+      "explanation": "A股韭菜的终极赛博许愿池，建议每天开盘前默念三遍。星河君友情提示：请勿在股市中盲目跟风，股市有风险，投资需谨慎。"
+    } 
   ]
 }
