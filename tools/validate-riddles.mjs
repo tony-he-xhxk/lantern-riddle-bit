@@ -116,7 +116,25 @@ if (config && payload) {
         } else {
           const normalized = riddle.acceptedAnswers.map((option) => normalizeAnswer(option));
           if (new Set(normalized).size !== normalized.length) {
-            warnings.push(`${where}：acceptedAnswers 归一化后存在重复`);
+            const groups = new Map();
+            riddle.acceptedAnswers.forEach((option, index) => {
+              const key = normalized[index];
+              if (!groups.has(key)) groups.set(key, []);
+              groups.get(key).push(String(option));
+            });
+            const collisions = [...groups.values()].filter((group) => group.length > 1);
+            const stripWords =
+              config.matching && Array.isArray(config.matching.stripWords)
+                ? config.matching.stripWords
+                : [];
+            const why = stripWords.length
+              ? `（判定会忽略 ${stripWords.join('、')} 这些虚词，以及空格与中英文标点）`
+              : '（判定会忽略空格与中英文标点）';
+            warnings.push(
+              `${where}：${collisions
+                .map((group) => group.map((value) => `「${value}」`).join(' 与 '))
+                .join('；')} 归一化后完全相同${why}，判定时彼此等价，保留一条即可`
+            );
           }
           if (!normalized.includes(normalizeAnswer(riddle.answer))) {
             warnings.push(`${where}：acceptedAnswers 未包含标准答案，判定时将自动补上`);

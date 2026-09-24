@@ -303,6 +303,26 @@
       "explanation": "中秋之夜抬头看月，是流传已久的“赏月”之俗。"
     },
     {
+      "id": "easy-31",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一外卖食品",
+      "question": "大象踩过，又扁又平，塞进鞋里刚刚好",
+      "answer": "塔斯汀汉堡",
+      "options": ["塔斯汀汉堡", "麦当劳汉堡", "肯德基汉堡","汉堡王汉堡"],
+      "explanation": "现烤饼皮虽香，但压扁之后真的像鞋垫。"
+    },
+    {
+      "id": "easy-32",
+      "difficulty": "easy",
+      "type": "choice",
+      "topic": "打一BIT良乡校区教学楼名称",
+      "question": "弯弯绕绕很多楼，吓破新生胆，上课教室找不着",
+      "answer": "文萃楼",
+      "options": ["文萃楼", "理教", "综教", "工训楼"],
+      "explanation": "文萃楼拥有A~M建筑群，第一次去绝对找不着路。"
+    },
+    {
       "id": "medium-01",
       "difficulty": "medium",
       "type": "choice",
@@ -603,6 +623,66 @@
       "explanation": "中秋时节桂花盛开，香气浓郁，扣“桂花”。"
     },
     {
+      "id": "medium-31",
+      "difficulty": "medium",
+      "type": "fill",
+      "topic": "打一五字网络热梗",
+      "question": "嫦娥奔月，黄皮肤，讲中文，一飞冲天",
+      "answer": "中国人能飞",
+      "acceptedAnswers": ["中国人能飞"],
+      "explanation": "伴奏响起summertime，中国人能飞~黄皮肤才对~"      
+    },
+    {
+      "id": "medium-32",
+      "difficulty": "medium",
+      "type": "fill",
+      "topic": "打一虚构物品",
+      "question": "玉兔捣药，嫦娥问：“这药能放多久？”玉兔答：“永久。”",
+      "answer": "野生狗奶",
+      "acceptedAnswers": ["野生狗奶"],
+      "explanation": "万物皆有落幕，唯有这瓶狗奶万古长存。"      
+    },
+    {
+      "id": "medium-33",
+      "difficulty": "medium",
+      "type": "fill",
+      "topic": "打一十字网络热梗",
+      "question": "中秋之夜，一只硕大的黄老鼠出现在你家门口，拿着外卖。他对你说了一句话。",
+      "answer": "你的胆子真是肥嘟嘟的",
+      "acceptedAnswers": ["你的胆子真是肥嘟嘟的"],
+      "explanation": "这道题写不对，美团老鼠立马找上门。"      
+    },
+    {
+      "id": "medium-34",
+      "difficulty": "medium",
+      "type": "choice",
+      "topic": "打一BIT宿舍楼名",
+      "question": "漏断人初静",
+      "answer": "疏桐",
+      "options": ["疏桐", "博雅", "甘棠", "丹枫"],
+      "explanation": "出自苏轼《卜算子·黄州定慧院寓居作》：“缺月挂疏桐，漏断人初静。”"
+    },
+    {
+      "id": "medium-35",
+      "difficulty": "medium",
+      "type": "fill",
+      "topic": "打一地名",
+      "question": "名为良辰美景，实为背井离乡",
+      "answer": "良乡",
+      "acceptedAnswers": ["良乡"],
+      "explanation": "“良辰美景”的第一个字和“背井离乡”的最后一个字组成“良乡”。"
+    },
+    {
+      "id": "medium-36",
+      "difficulty": "medium",
+      "type": "fill",
+      "topic": "打一BIT宿舍楼名",
+      "question": "远上寒山石径斜，白云深处有人家",
+      "answer": "丹枫",
+      "acceptedAnswers": ["丹枫","丹枫园"],
+      "explanation": "出自杜牧《山行》：“远上寒山石径斜，白云深处有人家。”后两句话是“停车坐爱枫林晚，霜叶红于二月花。”枫叶意象与丹枫园的名字相合。"
+    },     
+    {
       "id": "hard-01",
       "difficulty": "hard",
       "type": "choice",
@@ -901,6 +981,26 @@
       "answer": "嫦娥",
       "acceptedAnswers": ["嫦娥", "嫦娥仙子"],
       "explanation": "广寒宫里的女子，正是奔月的嫦娥。"
-    }
+    },
+    {
+      "id": "hard-31",
+      "difficulty": "hard",
+      "type": "choice",
+      "topic": "打一食物属性",
+      "question": "中秋买到一块军工级月饼，吃完感觉自己能原地升天。",
+      "answer": "每100克含77.2克蛋白质",
+      "options": ["每100克含77.2克蛋白质", "每100克含7.2克蛋白质", "每100克含77.2克碳水化合物", "每100克含77.2克脂肪"],
+      "explanation": "BIT蛋黄肉松馅奶黄流心月饼，一口下去，野生狗奶都难以匹敌。"
+    },
+    {
+    "id": "hard-32",
+    "difficulty": "hard",
+    "type": "choice",
+    "topic": "打一BIT宿舍楼名",
+    "question": "召伯曾歇树下荫，诗经传唱到如今。果实酸甜惹人爱，切勿剪伐留初心。",
+    "answer": "甘棠",
+    "options": ["甘棠", "疏桐", "博雅", "丹枫"],
+    "explanation": "出自《诗经·召南·甘棠》：“蔽芾甘棠，勿剪勿伐，召伯所茇。”"
+  } 
   ]
 }
